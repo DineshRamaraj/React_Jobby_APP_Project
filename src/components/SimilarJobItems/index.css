@@ -1,0 +1,151 @@
+.similar-list-item {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-list-item {
+    width: 23%;
+    margin-right: 10px;
+  }
+}
+
+.similar-image-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.similar-image {
+  width: 50px;
+  height: 50px;
+}
+
+.similar-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.similar-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-title {
+    font-size: 18px;
+  }
+}
+
+.similar-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-star-image {
+  font-size: 14px;
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.similar-rating {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.similar-location-salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-location-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.similar-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.similar-location-image {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.similar-location {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+.similar-job-type-image {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.similar-job-type {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.similar-package {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.similar-description-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.similar-description-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-description-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.similar-link {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  color: #6366f1;
+}
+
+.similar-link-icon {
+  margin-left: 5px;
+}
+
+.similar-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.5;
+}

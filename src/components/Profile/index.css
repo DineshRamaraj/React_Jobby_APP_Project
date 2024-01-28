@@ -1,0 +1,44 @@
+.job-profile-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+  width: 100%;
+}
+
+.job-profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.job-profile-image {
+  width: 50px;
+}
+
+.job-profile-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #6366f1;
+}
+
+.job-profile-bio {
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.profile-retry-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 0px;
+  border-radius: 8px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  width: 110px;
+  height: 35px;
+  cursor: pointer;
+}

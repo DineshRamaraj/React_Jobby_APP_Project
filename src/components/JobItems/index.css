@@ -1,0 +1,127 @@
+.link-item {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.job-card-item {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.card-item-image-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-item-image {
+  width: 50px;
+  height: 50px;
+}
+
+.card-item-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.card-item-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.card-item-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.card-item-star-image {
+  font-size: 14px;
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.card-item-rating {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 3px;
+}
+
+.card-item-location-salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-item-location-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-item-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.card-item-location-image {
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.card-item-location {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+.card-item-job-type-image {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.card-item-job-type {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.card-item-package {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.hr-line {
+  width: 100%;
+  border: 1px solid #475569;
+}
+
+.card-item-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-item-description-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.card-item-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.5;
+}

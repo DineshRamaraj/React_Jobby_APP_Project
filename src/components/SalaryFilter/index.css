@@ -1,0 +1,34 @@
+.job-salary-filters-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-salary-filter-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+
+.job-salary-list-container {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.job-salary-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.job-filter-radio {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.job-salary-filter-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 2px;
+}

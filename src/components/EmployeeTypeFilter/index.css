@@ -1,0 +1,33 @@
+.job-type-filters-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-filter-type-employment {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+
+.job-filter-list-container {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.job-filter-type-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.job-filter-checkbox {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.job-filter-type-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+}

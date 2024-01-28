@@ -1,0 +1,100 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: 100% 100%;
+  min-height: 90vh;
+  padding: 0px 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-bg-container {
+    padding: 0px 100px;
+  }
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .home-heading {
+    font-size: 38px;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 48px;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .home-heading {
+    font-size: 56px;
+    width: 50%;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-description {
+    font-size: 16px;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 20px;
+    width: 50%;
+  }
+}
+
+.home-job-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: 0px;
+  border-radius: 8px;
+  padding: 10px 30px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .home-job-button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-job-button {
+    font-size: 20px;
+  }
+}
